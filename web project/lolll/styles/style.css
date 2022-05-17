@@ -1,0 +1,329 @@
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    color: rgb(7, 70, 52);
+}
+span{
+    color: #4CAF50;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0e4610;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(175, 198, 202);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    
+    .container {
+        position: relative;
+        width: 100%;
+        
+      }
+    .women{
+        width: 53%;
+        height: auto;
+        margin: 20px;
+        margin-left: 33%;
+        display: block;
+        opacity: 1;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+        display: inline;
+        align-self:left;
+    }
+
+    .middle{
+        transition: 0.5s ease;
+        opacity: 0;
+        top:40%;
+        right: 45%;
+        position: absolute;
+       
+    }
+    .women:hover{
+        opacity: 0.3;
+    }
+    .middle:hover{
+        opacity: 1;
+    }
+    div.middle a:visited{
+        color: white;
+    }
+    .text{
+        background-color: #629664;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+    }
+    .men:hover{
+        opacity: 0.3;
+    }
+    .container1 {
+        position: relative;
+        width: 65%;
+      }
+    .men{
+        width: 53%;
+        height: auto;
+        margin: 20px;
+        margin-left: 30%;
+        display: block;
+        opacity: 1;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+    }
+    .middle1{
+        transition: 0.5s ease;
+        opacity: 0;
+        top:40%;
+        right: 15%;
+        position: absolute;
+       
+    }
+    div.middle1 a:visited{
+        color: white;
+    }
+    .middle1:hover{
+        opacity: 1;
+    }
+    .text1{
+        background-color: #4CAF50;
+        right: 50%;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+    }
+    
+    div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+        opacity: 1;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        color: white;
+        background-color:#0e4610;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .advertisement{
+        margin-left: 40%;
+      }
+     * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text2 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.container5 {
+    position: relative;
+    width: 50%;
+    display: flex;
+    
+   
+  }
+  
+  .paragraph{
+     
+      margin-left: 55%;
+      margin-right: 30%;
+      width: 50%;
+      align-items: center;
+      vertical-align: middle;
+  }
+  
+  .image {
+    opacity: 1;
+    
+    float: left;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle5 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container5:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container5:hover .middle5 {
+    opacity: 1;
+  }
+  
+  .text5 {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  ul.thumbs {
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	width:500px;
+}
+ul.thumbs li { margin:0 0 20px; }
+ul.thumbs li a, ul.thumbs li a:visited {
+	display:block;
+	text-decoration:none;
+	color:#000;
+}
+ul.thumbs li img, ul.thumbs li span {
+	display:inline-block;
+	vertical-align:middle;
+}
+ul.thumbs li img { border:2px solid #000; }
+ul.thumbs li span {
+	width:280px;
+	margin:0 0 0 8px
+}
+ul.thumbs li a:hover { color:#f00 }
+ul.thumbs li a:hover img { border-color:#f00 }

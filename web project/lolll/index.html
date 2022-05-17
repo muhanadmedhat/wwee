@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <head>
+        <link href="styles/style.css" rel="stylesheet"></link>
+        <style>
+           
+                
+        </style>
+    </head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#news">Sign Up</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Newest</a>
+          <div class="dropdown-content">
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+          </div>
+        </li>
+      </ul>
+    
+<h1>▁ ▂ ▄ ▅ ▆ ▇ █ 🆂🆃🆁🅴🅴🆃 🆆🅴🅰🆁🆂 █ ▇ ▆ ▅ ▄ ▂ ▁</h1>
+<br>
+<br>
+
+<hr>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/stand.jpg" style="width:100%">
+      <div class="text2">Women Collection</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/kids.JPG" style="width:100%">
+      <div class="text2">Kids Collection</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/Clothing-Retail-Display.jpg" style="width:100%">
+      <div class="text2">Men Collection</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    <hr>
+     <div class="container">
+<div class="women">
+    <img src="images/women.jpg">
+    
+   <div class="middle">
+       <div class="text"><a href="women.html" target="_blank">womens collection</a></div>
+   </div>
+</div>
+</div>
+    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">Go back to basics with Weekday. The Scandi brand serves up minimal designs with a street-style twist – think clean lines, elevated with pops of colour. Offering a versatile collection of clothing, swimwear, lingerie and accessories, check out our Weekday at ASOS edit. For wardrobe-ready threads, shop casual hoodies, trousers and jackets, or choose a T-shirt to suit your mood with everything from laid-back classics to playful slogans. Denim jeans in timeless washes make a great base for any outfit, and if it’s add-ons you’re interested in, scroll the brand’s range of 90s-inspired sunglasses and simple necklaces.<SPAN>TO CHECK WOMEN COLLECTION HOVER ON THE IMAGE!</SPAN></p>  
+<div class="container1">
+<div class="men">
+    <img src="images/men.jpg">
+   <div class="middle1">
+    <div class="text1"><a href="men.html" target="_blank">mens collection</a></div>
+   </div>
+</div>
+</div>
+
+<div class="container5">
+ <img src="images/men.jpg" alt="Avatar" class="image" style="width:100%">
+    
+    <div class="middle5">
+      <div class="text5"><a href="men.html">Men Collection</a></div>
+    </div>
+    <p class="paragraph">To check new men collection hover on the image and click on men collection </p>
+  </div>
+  <ul class="thumbs">
+    <li><a href="#"> <img src="images/men.jpg" width="200" height="150" alt="example" ><span> This is the caption</span></a></li>
+    <li><a href="#"> <img src="images/women.jpg" width="200" height="150" alt="example" ><span> This is the caption</span></a></li>
+    <li><a href="#"> <img src="http://placehold.it/200x150" width="200" height="150" alt="example" ><span> This is the caption that may run to more than one line</span></a></li>
+    <li><a href="#"> <img src="http://placehold.it/200x150" width="200" height="150" alt="example" ><span> This is the caption that may run to three lines or more and still be vertically centred in respect of the image.</span></a></li>
+    <li><a href="#"> <img src="http://placehold.it/200x150" width="200" height="150" alt="example" ><span> This is the caption</span></a></li>
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+    </script>
+    
+</body>
+</html>
